@@ -1,0 +1,8 @@
+.container {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+	list-style-type: none;
+}

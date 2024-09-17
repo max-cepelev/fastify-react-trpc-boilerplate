@@ -1,0 +1,42 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "main";
+	width: 100%;
+	height: 100%;
+}
+
+.withSidebar {
+	grid-template-areas: "sidebar main";
+	grid-template-columns: 40px 1fr;
+}
+
+.withHeader {
+	grid-template-rows: 40px 1fr;
+	grid-template-areas: "sidebar header" "sidebar main";
+}
+
+.open {
+	grid-template-columns: 240px 1fr;
+}
+
+.header {
+	grid-area: header;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	width: 100%;
+	height: 100%;
+
+	overflow-y: auto;
+}
+
+.main {
+	grid-area: main;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	overflow-y: auto;
+}

@@ -1,0 +1,13 @@
+.root {
+	display: grid;
+	background-color: transparent;
+	transition: background-color 0.2s ease;
+}
+
+.selectable {
+	cursor: pointer;
+}
+
+.selectable:hover {
+	background-color: var(--muted);
+}

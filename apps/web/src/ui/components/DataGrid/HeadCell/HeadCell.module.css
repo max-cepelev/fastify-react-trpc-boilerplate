@@ -1,0 +1,26 @@
+.root {
+	display: flex;
+	align-items: center;
+	padding: 4px 8px;
+	color: var(--muted-foreground);
+	background-color: var(--muted);
+	p {
+		margin: 0;
+	}
+}
+
+.left {
+	justify-content: flex-start;
+}
+
+.center {
+	justify-content: center;
+}
+
+.right {
+	justify-content: flex-end;
+}
+
+.justify {
+	justify-content: space-between;
+}
